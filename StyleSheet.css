@@ -1,0 +1,189 @@
+body{
+    background-color: #0E0B16;
+}
+
+.buttons_Theam{
+    left: 15%;
+    top: 100px;
+    position: relative;
+    background-color: rgba(71,23,246,.3);
+    width: 70%;
+    height: 270px;
+    
+
+    border-radius: 15px;
+}
+
+#button_Genra_Action,#button_Genra_Horror,#button_Genra_Mind_Fuck,#button_Genra_Fantazy,#button_Genra_Triller,#button_Genra_Feel_Good,#button_Genra_SciFi,#button_Genra_History,#button_Genra_Love,#button_Genra_War,#button_Genra_Musical,#button_Genra_Biography,#button_Genra_Sport,#button_Genra_Comedy,#button_Genra_Adult{
+    position: relative;
+    margin: 30px;
+
+    width: 200px;
+    height: 150px;
+
+    font-size: 25px;
+    border-radius: 12px;
+}
+#button_Genra_Horror,#button_Genra_Fantazy,#button_Genra_Triller,#button_Genra_History,#button_Genra_War,#button_Genra_Musical,#button_Genra_Biography,#button_Genra_Sport,#button_Genra_Comedy,#button_Genra_Adult{
+    visibility: hidden;
+}
+#button_Genra_ID{
+    top: -350px;
+    left: -325px;
+    transform: scale(0.2);
+    border-radius: 200px;
+    -webkit-box-shadow: 15px 15px 10px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 15px 10px 10px rgba(0,0,0,0.75);
+    box-shadow: 15px 15px 10px 10px rgba(0,0,0,0.75);
+}
+
+
+#button_Genra_Action:hover,#button_Genra_Horror:hover,#button_Genra_Mind_Fuck:hover,#button_Genra_Fantazy:hover,#button_Genra_Triller:hover,#button_Genra_Feel_Good:hover,#button_Genra_SciFi:hover,#button_Genra_History:hover,#button_Genra_Love:hover,#button_Genra_War:hover,#button_Genra_Musical:hover,#button_Genra_Biography:hover,#button_Genra_Sport:hover,#button_Genra_Comedy:hover,#button_Genra_Adult:hover{
+    transform: scale(1.1);
+    background-color: #A239CA;
+    color: white;
+    font-size: 31px;
+}
+
+.Sitting_Mood_Class {
+    position: absolute;
+    top: 50px;
+    background-color: #A239CA;
+    width: auto;
+    height: auto;
+}
+
+.buttons_Mood{
+    top: 150px;
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+
+    border-radius: 15px;
+}
+.Mood_Row1{
+    position: absolute;
+    top: -80px;
+}
+
+.Mood_Row2{
+    position: absolute;
+    left: 170px;
+    top: -80px;
+}
+
+#button_Mood_Happy, #button_Mood_Sad, #button_Mood_Angrey, #button_Mood_Empty,#button_Mood_Horny,#button_Mood_Goofy,#button_Mood_Evil,#button_Mood_Scared{
+    position:relative;
+    display: flex;
+
+    margin-top: 150px;
+
+    transform: scale(0.2);
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+
+    visibility: hidden;
+
+    
+}
+
+#button_Mood_Happy:hover, #button_Mood_Sad:hover, #button_Mood_Angrey:hover, #button_Mood_Empty:hover, #button_Mood_Horny:hover, #button_Mood_Goofy:hover,#button_Mood_Evil:hover,#button_Mood_Scared:hover {
+    transform: scale(0.205);
+}
+
+#Ganera_Excender {
+    position: relative;
+    left: 43.3%;
+    top: -415px;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons_Setting {
+    top: 50px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+#button_Setting_At_Home_Alone, #button_Sitting_With_Friends, #button_Sitting_With_Family {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -10px;
+    margin: 20px;
+
+    width: 200px;
+    height: 30px;
+
+    align-items: center;
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+img{
+    position: absolute;
+}
+
+
+#button_Setting_At_Home_Alone:hover,#button_Sitting_With_Friends:hover,#button_Sitting_With_Family:hover{
+    transform: scale(1.05);
+}
+
+#button_Sitting_With_Friends, #button_Sitting_With_Family {
+    visibility: hidden;
+}
+
+#button_Sitting_Exspand{
+    position: absolute;
+    left: 80%;
+    top: 5px;
+    font-size: 27px;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#button_Mood_Head {
+    position: relative;
+    top: -20px;
+
+    margin: 20px;
+
+    width: 230px;
+    height: 30px;
+
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+#button_Mood_Exspand{
+    position: absolute;
+    left: 250px;
+    top: 6px;
+    font-size: 40px;
+    transform: rotate(-90deg);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
