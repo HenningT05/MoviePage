@@ -3,6 +3,7 @@ var mood_Exspanded = false
 var ganeras_Exspanded = false
 var choosen_Sitting = "AT Home Alone"
 var choosen_Mood = ""
+var test = " good shit"
 
 function Sitting_Div_Exspand(){ 
     if (sitting_Exspanded == true){
