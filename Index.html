@@ -15,58 +15,82 @@
     <script src="MovieData.js"></script>
     <script src="Script.js"></script>
     <script src="MainAlgorityem.js"></script>
+    <script src="CleanScreen.js"></script>
 </head>
 <body>
-    <div class="Sitting_Mood_Class">
-        <div class="buttons_Setting">
-            <div class="buttons_Class">
-                <button id="button_Sitting_Exspand" onclick="Sitting_Div_Exspand()"><</button>
-                <button id="button_Setting_At_Home_Alone" onclick="Sitting_At_Home_Alone_Pressed()">AT Home Alone</button>
-                <button id="button_Sitting_With_Friends" onclick="Sitting_With_Friends()">With frinds</button>
-                <button id="button_Sitting_With_Family" onclick="Sitting_With_Family()">With Family</button>
+    <div class="MainIndex">
+        <div class="Sitting_Mood_Class">
+            <div class="buttons_Setting">
+                <div class="buttons_Class">
+                    <button id="button_Sitting_Exspand" onclick="Sitting_Div_Exspand()"><</button>
+                    <button id="button_Setting_At_Home_Alone" onclick="Sitting_At_Home_Alone_Pressed()">AT Home Alone</button>
+                    <button id="button_Sitting_With_Friends" onclick="Sitting_With_Friends()">With frinds</button>
+                    <button id="button_Sitting_With_Family" onclick="Sitting_With_Family()">With Family</button>
+                </div>
+            </div>
+
+            <div class="buttons_Mood">
+                <div class="buttons_Class">
+                    <button id="button_Mood_Head" onclick="Mood_Div_Exspand()">How are you doing, What mood are you in?</button>
+                    <button id="button_Mood_Exspand" onclick="Mood_Div_Exspand()"><</button>
+                    <div class="Mood_Row1">
+                        <button id="button_Mood_Happy" onclick="Mood_Happy()"><img id="happy_Button_ID" src="IndexImages/HappyMood.png" alt="Happy Mood" title="Happy"></button>
+                        <button id="button_Mood_Sad" onclick="MoodSad()"><img id="sad_Button_ID" src="IndexImages/SadMood.png" alt="Sad Mood" title="Sad"></button>
+                        <button id="button_Mood_Angrey" onclick="MoodAngry()"><img id="angry_Button_ID" src="IndexImages/AngryMood.png" alt="Angry Mood" title="Angry"></button>
+                        <button id="button_Mood_Evil" onclick="MoodEvil()"><img id="evil_Button_ID" src="IndexImages/EvilMood.png" alt="Evil Mood" title="Evil"></button>
+                    </div>
+                    <div class="Mood_Row2">
+                        <button id="button_Mood_Empty" onclick="MoodEmpty()"><img id="empty_Button_ID" src="IndexImages/EmptyMood.png" alt="Empty Mood" title="Empty"></button>
+                        <button id="button_Mood_Horny" onclick="MoodHorny()"><img id="horny_Button_ID" src="IndexImages/HornyMood.png" alt="HornyMood Mood" title="Horny"></button>
+                        <button id="button_Mood_Goofy" onclick="MoodGoofy()"><img id="goofy_Button_ID" src="IndexImages/GoofyMood.png" alt="Goofy Mood" title="Goofy"></button>
+                        <button id="button_Mood_Scared" onclick="MoodScared()"><img id="scared_Button_ID" src="IndexImages/ScaredMood.png" alt="Scared Mood" title="Scared"></button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="buttons_Mood">
+        <div class="buttons_Theam">
             <div class="buttons_Class">
-                <button id="button_Mood_Head" onclick="Mood_Div_Exspand()">How are you doing, What mood are you in?</button>
-                <button id="button_Mood_Exspand" onclick="Mood_Div_Exspand()"><</button>
-                <div class="Mood_Row1">
-                    <button id="button_Mood_Happy" onclick="Mood_Happy()"><img id="happy_Button_ID" src="IndexImages/HappyMood.png" alt="Happy Mood" title="Happy"></button>
-                    <button id="button_Mood_Sad" onclick="MoodSad()"><img id="sad_Button_ID" src="IndexImages/SadMood.png" alt="Sad Mood" title="Sad"></button>
-                    <button id="button_Mood_Angrey" onclick="MoodAngry()"><img id="angry_Button_ID" src="IndexImages/AngryMood.png" alt="Angry Mood" title="Angry"></button>
-                    <button id="button_Mood_Evil" onclick="MoodEvil()"><img id="evil_Button_ID" src="IndexImages/EvilMood.png" alt="Evil Mood" title="Evil"></button>
-                </div>
-                <div class="Mood_Row2">
-                    <button id="button_Mood_Empty" onclick="MoodEmpty()"><img id="empty_Button_ID" src="IndexImages/EmptyMood.png" alt="Empty Mood" title="Empty"></button>
-                    <button id="button_Mood_Horny" onclick="MoodHorny()"><img id="horny_Button_ID" src="IndexImages/HornyMood.png" alt="HornyMood Mood" title="Horny"></button>
-                    <button id="button_Mood_Goofy" onclick="MoodGoofy()"><img id="goofy_Button_ID" src="IndexImages/GoofyMood.png" alt="Goofy Mood" title="Goofy"></button>
-                    <button id="button_Mood_Scared" onclick="MoodScared()"><img id="scared_Button_ID" src="IndexImages/ScaredMood.png" alt="Scared Mood" title="Scared"></button>
-                </div>
+                <button id="button_Genra_Action"><img id="button_Genra_ID" src="IndexImages/MovieGaneraAction.jpg" alt=""></button>
+                <button id="button_Genra_SciFi"><img id="button_Genra_ID" src="IndexImages/MovieGaneraScifi.jpg" alt=""></button>
+                <button id="button_Genra_Mind_Fuck"><img id="button_Genra_ID" src="IndexImages/MovieGaneraMindFuck.png" alt=""></button>
+                <button id="button_Genra_Love"><img id="button_Genra_ID" src="IndexImages/MovieGaneraLove.jpg" alt=""></button>
+                <button id="button_Genra_Feel_Good"><img id="button_Genra_ID" src="IndexImages/MovieGaneraFeelGood.jpg" alt=""></button>
+                
+                <button id="button_Genra_Fantazy"><img id="button_Genra_ID" src="IndexImages/MovieGaneraFantazy.jpg" alt=""></button>
+                <button id="button_Genra_Triller"><img id="button_Genra_ID" src="IndexImages/MovieGaneraTriller.jpg" alt=""></button>
+                <button id="button_Genra_Horror"><img id="button_Genra_ID" src="IndexImages/MovieGaneraHorror.jpg" alt=""></button>
+                <button id="button_Genra_History"><img id="button_Genra_ID" src="IndexImages/MovieGaneraHistory.jpg" alt=""></button>
+                <button id="button_Genra_War"><img id="button_Genra_ID" src="IndexImages/MovieGaneraWar.jpg" alt=""></button>
+                <button id="button_Genra_Musical"><img id="button_Genra_ID" src="IndexImages/MovieGaneraMusical.jpg" alt=""></button>
+                <button id="button_Genra_Biography"><img id="button_Genra_ID" src="IndexImages/MovieGaneraBiography.jpg" alt=""></button>
+                <button id="button_Genra_Sport"><img id="button_Genra_ID" src="IndexImages/MovieGaneraSport.jpg" alt=""></button>
+                <button id="button_Genra_Comedy"><img id="button_Genra_ID" src="IndexImages/MovieGaneraComedy.jpg" alt=""></button>
+                <button id="button_Genra_Adult"><img id="button_Genra_ID" src="IndexImages/MovieGaneraAdult.jpg" alt=""></button>
             </div>
+            <button id="Ganera_Excender" onclick="Ganeras_Exspand()">VIEW MORE</button>
         </div>
     </div>
+    <div class="MoviePage">
+        <!--Img
+        movie title             where to watch
+        sjanger                 15 + 
+        movie text...
 
-    <div class="buttons_Theam">
-        <div class="buttons_Class">
-            <button id="button_Genra_Action"><img id="button_Genra_ID" src="IndexImages/MovieGaneraAction.jpg" alt=""></button>
-            <button id="button_Genra_SciFi"><img id="button_Genra_ID" src="IndexImages/MovieGaneraScifi.jpg" alt=""></button>
-            <button id="button_Genra_Mind_Fuck"><img id="button_Genra_ID" src="IndexImages/MovieGaneraMindFuck.png" alt=""></button>
-            <button id="button_Genra_Love"><img id="button_Genra_ID" src="IndexImages/MovieGaneraLove.jpg" alt=""></button>
-            <button id="button_Genra_Feel_Good"><img id="button_Genra_ID" src="IndexImages/MovieGaneraFeelGood.jpg" alt=""></button>
-            
-            <button id="button_Genra_Fantazy"><img id="button_Genra_ID" src="IndexImages/MovieGaneraFantazy.jpg" alt=""></button>
-            <button id="button_Genra_Triller"><img id="button_Genra_ID" src="IndexImages/MovieGaneraTriller.jpg" alt=""></button>
-            <button id="button_Genra_Horror"><img id="button_Genra_ID" src="IndexImages/MovieGaneraHorror.jpg" alt=""></button>
-            <button id="button_Genra_History"><img id="button_Genra_ID" src="IndexImages/MovieGaneraHistory.jpg" alt=""></button>
-            <button id="button_Genra_War"><img id="button_Genra_ID" src="IndexImages/MovieGaneraWar.jpg" alt=""></button>
-            <button id="button_Genra_Musical"><img id="button_Genra_ID" src="IndexImages/MovieGaneraMusical.jpg" alt=""></button>
-            <button id="button_Genra_Biography"><img id="button_Genra_ID" src="IndexImages/MovieGaneraBiography.jpg" alt=""></button>
-            <button id="button_Genra_Sport"><img id="button_Genra_ID" src="IndexImages/MovieGaneraSport.jpg" alt=""></button>
-            <button id="button_Genra_Comedy"><img id="button_Genra_ID" src="IndexImages/MovieGaneraComedy.jpg" alt=""></button>
-            <button id="button_Genra_Adult"><img id="button_Genra_ID" src="IndexImages/MovieGaneraAdult.jpg" alt=""></button>
-        </div>
-        <button id="Ganera_Excender" onclick="Ganeras_Exspand()">VIEW MORE</button>
+        moive director imge         -name
+        movie actor 1               -name
+        movie actor 2               -name
+        movie actor 3               -name
+        movie actor 4               -name
+        movie actor 5               -name
+        movie actor 6               -name
+        movie actor 7               -name
+        movie actor 8               -name
+        movie actor 9               -name
+        movie actor 10              -name
+        
+        -->
+
     </div>
 </body>
 </html>
