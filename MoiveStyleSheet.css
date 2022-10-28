@@ -1,0 +1,11 @@
+.MoviePage{
+    visibility: hidden;
+}
+
+.Movie_Info_BackerClass{
+    position: absolute;
+    left: 30%;
+    background-color: aqua;
+    width: 40%;
+    height: 50%;
+}
