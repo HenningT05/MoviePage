@@ -21,6 +21,17 @@
     height: 70%;
 }
 
+.Topper_BackClass{
+    position: relative;
+    top: 10px;
+    left: 8%;
+    width: 84%;
+    height: 470px;
+    border-radius: 12px;
+    background-color: #252525;
+    border: black solid 4px ;
+}
+
 .People_Class{
     position: relative;
     left: 8%;
@@ -31,7 +42,171 @@
 
 
 
-.Director_Class,.Actor1_Class, .Actor2_Class, .Actor3_Class, .Actor4_Class, .Actor5_Class, .Actor6_Class, .Actor7_Class, .Actor8_Class, .Actor9_Class, .Actor10_Class{
+#Movie_Banner_IMG{
+    position: relative;
+    margin: 15px;
+    width: 300px;
+    border-radius: 12px;
+
+}
+
+#MovieTitle{
+    position: absolute;
+    left: 350px;
+    top: -15px;
+    width: 280px;
+    word-wrap: break-word;
+    color: white;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Movie_Info_Ganera_Class{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    height: 100px;
+    background-color: white;
+    border: #252525 solid 2px;
+    border-radius: 8px;
+}
+
+.Movie_Lenght_Class{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 8px;
+}
+
+#Movie_Info_Ganera_IMG{
+    position: relative;
+    left: 18px;
+    background-color: transparent;
+}
+
+#Age_Restriction_IMG{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    transform: scale(0.9);
+}
+
+.Where_To_Watch_Class{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 350px;
+    top: 335px;
+    width: 270px;
+    height: 100px;
+
+    border: black solid 2px;
+    border-radius: 8px;
+
+    background-color: white;
+}
+
+#WTW_Netflix, #WTW_HBO, #WTW_Disney, #Apple_TV, #WTW_Youtube_Movie {
+    position: relative;
+    width: 48px;
+    margin-left: 5px;
+    top: 10px;
+}
+
+
+#WTW_Netflix_Info, #WTW_HBO_Info, #WTW_Disney_Video, #WTW_Apple_Info, #WTW_Youtube_Info{
+    position: relative;
+    left: 15px;
+    top: -10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #252525;
+}
+
+#WTW_Date_Updte{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+
+.Rating_Class{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 350px;
+    top: 262px;
+    height: 50px;
+    width: 270px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 8px;
+}
+
+#IMDB_Rating_icon, #Letterboxd_Rating_Icon{
+    position: relative;
+    width: 60px;
+    margin-left: 75px;
+    left: -65px;
+    top: 10px;
+}
+
+.IMDB_Rating_Box{
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    width: 65px;
+    height: 20px;
+    background-color: #1f1f1f ;
+    border-radius: 4px;
+}
+#IMDB_Star, #Letterboxd_Star{
+    transform: scale(0.5);
+    top: -8px;
+    left: 34px;
+}
+
+#Letterboxd_Star{
+    left: 25px;
+}
+
+.Letterboxd_Rating_Box{
+    position: absolute;
+    top: 15px;
+    left: 210px;
+    width: 55px;
+    height: 20px;
+    background-color: #1f1f1f ;
+    border-radius: 4px;
+}
+
+#IMDB_Rating_Text, #Letterboxd_Rating_Text{
+    position: relative;
+    top: -15px;
+    left: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+
+#IMDB_Rating_Text{
+    color: #f5c518;
+}
+
+#Letterboxd_Rating_Text{
+    color: #00c030; 
+}
+
+.Director_Class,.Actor1_Class, .Actor2_Class, .Actor3_Class, .Actor4_Class, .Actor5_Class, .Actor6_Class{
     position: relative;
     left: 20px;
     top: 30px;
@@ -43,12 +218,12 @@
     border-radius: 12px;
 }
 
-.Actor6_Class, .Actor7_Class, .Actor8_Class, .Actor9_Class, .Actor10_Class{
+.Actor4_Class, .Actor5_Class, .Actor6_Class{
     left: 348px;
-    top: -969px;
+    top: -567px;
 }
 
-#Director_Name, #Actor1_Name, #Actor2_Name, #Actor3_Name, #Actor4_Name, #Actor5_Name, #Actor6_Name, #Actor7_Name, #Actor8_Name, #Actor9_Name, #Actor10_Name{
+#Director_Name, #Actor1_Name, #Actor2_Name, #Actor3_Name, #Actor4_Name, #Actor5_Name, #Actor6_Name{
     position: relative;
     left: 130px;
     top: -70px;
@@ -58,7 +233,7 @@
     color: white;
 }
 
-#Director_Role, #Actor1_Role, #Actor2_Role, #Actor3_Role, #Actor4_Role, #Actor5_Role, #Actor6_Role, #Actor7_Role, #Actor8_Role, #Actor9_Role, #Actor10_Role{
+#Director_Role, #Actor1_Role, #Actor2_Role, #Actor3_Role, #Actor4_Role, #Actor5_Role, #Actor6_Role{
     position: relative;
     left: 130px;
     top: -80px;
@@ -68,7 +243,7 @@
     color: gray;
 }
 
-#Director_IMG, #Actor1_IMG, #Actor2_IMG, #Actor3_IMG, #Actor4_IMG, #Actor5_IMG, #Actor6_IMG, #Actor7_IMG, #Actor8_IMG, #Actor9_IMG, #Actor10_IMG{
+#Director_IMG, #Actor1_IMG, #Actor2_IMG, #Actor3_IMG, #Actor4_IMG, #Actor5_IMG, #Actor6_IMG{
     position: relative;
     top: 25px;
     left: 15px;
