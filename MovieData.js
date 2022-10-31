@@ -1,64 +1,85 @@
 class Movie {
-    constructor(MovieName, ImageTag,Lenght_Hours,Lenght_Minuts, Year, WTW_Netflix, WTW_HBO, WTW_Viaplay, WTW_Amazone,Age_Restriction, Ganera_Number, Ganera1, Ganera2, Ganera3, IMDB_Rating, MovieDirectorImg, MovieDirectorName, Actor1IMG, Actor1Name, Actor2IMG, Actor2Name, Actor3IMG, Actor3Name, Actor4IMG, Actor4Name, Actor5IMG, Actor5Name, Actor6IMG, Actor6Name) {
+    constructor(MovieName, Name_Font_Size, ImageDisplayTag, ImageBannerTag, Lenght_Hours,Lenght_Minuts, Year, WTW_Netflix, Netflix_Data, WTW_HBO, HBO_Data, WTW_Disney, Disney_Data, WTW_Apple, Apple_Data, WTW_Youtube, YouTube_Data, WTW_Date_Update, Age_Restriction, Ganera, IMDB_Rating, Letterboxb_Rating, MovieDirectorImg, MovieDirectorName, Actor1IMG, Actor1Name, Actor1Role, Actor2IMG, Actor2Name, Actor2Role, Actor3IMG, Actor3Name, Actor3Role, Actor4IMG, Actor4Name, Actor4Role, Actor5IMG, Actor5Name, Actor5Role, Actor6IMG, Actor6Name, Actor6Role) {
         this.MovieName = MovieName;
-        this.ImageTag = ImageTag;
+        this.Name_Font_Size = Name_Font_Size;
+        this.ImageDisplayTag = ImageDisplayTag;
+        this.ImageBannerTag = ImageBannerTag;
         this.Lenght_Hours = Lenght_Hours;
         this.Lenght_Minuts = Lenght_Minuts;
         this.Year = Year;
         this.WTW_Netflix = WTW_Netflix;
+        this.Netflix_Data = Netflix_Data;
         this.WTW_HBO = WTW_HBO;
-        this.WTW_Viaplay = WTW_Viaplay; 
-        this.WTW_Amazone = WTW_Amazone;
+        this.HBO_Data = HBO_Data;
+        this.WTW_Disney = WTW_Disney; 
+        this.Disney_Data = Disney_Data;
+        this.WTW_Apple = WTW_Apple;
+        this.Apple_Data = Apple_Data;
+        this.WTW_Youtube = WTW_Youtube;
+        this.YouTube_Data = YouTube_Data;
+        this.WTW_Date_Update = WTW_Date_Update;
         this.Age_Restriction = Age_Restriction;
-        this.Ganera_Number = Ganera_Number;
-        this.Ganera1 = Ganera1;
-        this.Ganera2 = Ganera2;
-        this.Ganera3 = Ganera3;
+        this.Ganera = Ganera;
         this.IMDB_Rating = IMDB_Rating;
+        this.Letterboxb_Rating = Letterboxb_Rating;
         this.MovieDirectorImg = MovieDirectorImg;
         this.MovieDirectorName = MovieDirectorName;
         this.Actor1IMG = Actor1IMG;
         this.Actor1Name = Actor1Name;
+        this.Actor1Role = Actor1Role;
         this.Actor2IMG = Actor2IMG;
         this.Actor2Name = Actor2Name;
+        this.Actor2Role = Actor2Role;
         this.Actor3IMG = Actor3IMG
         this.Actor3Name = Actor3Name;
+        this.Actor3Role = Actor3Role;
         this.Actor4IMG = Actor4IMG;
         this.Actor4Name = Actor4Name;
+        this.Actor4Role = Actor4Role;
         this.Actor5IMG = Actor5IMG;
         this.Actor5Name = Actor5Name;
+        this.Actor5Role = Actor5Role;
         this.Actor6IMG = Actor6IMG;
         this.Actor6Name = Actor6Name;
+        this.Actor6Role = Actor6Role;
     }
 }
 
 let FightClub = new Movie (
     "Fight Club",
-    "Imge tag",
+    40,
+    "BC_Movie_Images/FightClubBC",
+    "Banner_Movie_Images/FightClub.jpg",
     2,
     19,
     1999,
-    false,
+    false,  //Netflix
+    "",
+    true,  //HBO
+    "Stream",
+    true,  //Disney
+    "Stream",
+    true,  //Apple
+    "Rent",
     true,
-    false,
-    true,
-    15,
+    "Rent",
+    "10.31 2022",
+    16,
     2,
     "MindFuck",
-    "Action",
-    "U",
     8.8,
-    "David Fincher iamge",
+    4.3,
+    "PeopleImages/DavidFincher.jpg", //Dirctor
     "David Fincher",
-    "Brad Pitt image",
+    "PeopleImages/BradPitt.jpg",
     "Brad Pitt",
-    "Edward Norton Image",
+    "PeopleImages/EdwardNorton.jpg",
     "Edward Norton",
-    "Helena Bonham Carter image",
+    "PeopleImages/HelenaBonhamCarter.jpg", 
     "Helena Bonham Carter",
     "Meat Loaf image",
     "Meat Loaf",
-    "Meat Loaf image", 
+    "Meat Loaf image",
     "Meat Loaf",
     "David Andrews image",
     "David Andrews"

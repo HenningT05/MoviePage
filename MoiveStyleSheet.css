@@ -1,3 +1,13 @@
+.BackShaddow{
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 37, 37,.2);
+    z-index: -1;
+}
 .MoviePage{
     visibility: hidden;
 }
@@ -8,17 +18,20 @@
     left: 10%;
     width: 80%;
     height: 70%;
-    border: black solid 8px;
+    border: black solid 1px;
     border-radius: 0px 0px 50px 50px;
+    z-index: -2;
 }
 
 .Movie_Info_BackerClass{
     position: absolute;
     left: 30%;
     top: 200px;
-    background-color: rgba(71,23,246,.6);
+    background-color: rgb(31, 31, 31,.6);
+    border: black solid 1px;
+    border-radius: 16px;
     width: 40%;
-    height: 70%;
+    height: 1360px;
 }
 
 .Topper_BackClass{
@@ -28,19 +41,9 @@
     width: 84%;
     height: 470px;
     border-radius: 12px;
-    background-color: #252525;
-    border: black solid 4px ;
+    background-color: rgb(37, 37, 37,.8);
+    border: black solid 1px ;
 }
-
-.People_Class{
-    position: relative;
-    left: 8%;
-    width: 84%;
-    height: 1200px;
-    background-color: azure;
-}
-
-
 
 #Movie_Banner_IMG{
     position: relative;
@@ -61,42 +64,58 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#Movie_Lenght{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    color: gray;
+}
+
+#MovieYear{
+    position: relative;
+    top: -37px;
+    left: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: lightgray;
+}
+
 .Movie_Info_Ganera_Class{
     position: absolute;
-    left: 350px;
-    top: 120px;
-    display: flex;
-    flex-direction: row;
-    width: 270px;
-    height: 100px;
+    left: 360px;
+    top: 130px;
+    width: 120px;
+    height: 120px;
     background-color: white;
     border: #252525 solid 2px;
     border-radius: 8px;
-}
-
-.Movie_Lenght_Class{
-    position: relative;
-    left: 15px;
-    top: 20px;
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    border: black solid 2px;
-    border-radius: 8px;
+    transform: scale(0.85);
 }
 
 #Movie_Info_Ganera_IMG{
     position: relative;
-    left: 18px;
-    background-color: transparent;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+}
+
+.Movie_Info_Age_Restriction{
+    position: absolute;
+    left: 490px;
+    top: 130px;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border: #252525 solid 2px;
+    border-radius: 8px;
+    transform: scale(0.85);
 }
 
 #Age_Restriction_IMG{
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: 10px;
+    top: 10px;
     width: 100px;
-    transform: scale(0.9);
 }
 
 .Where_To_Watch_Class{
@@ -206,21 +225,32 @@
     color: #00c030; 
 }
 
+.People_Class{
+    position: relative;
+    left: 8%;
+    width: 84%;
+    height: 820px;
+    background-color:#1f1f1f;
+    border: black solid 1px;
+    border-radius: 18px;
+}
+
 .Director_Class,.Actor1_Class, .Actor2_Class, .Actor3_Class, .Actor4_Class, .Actor5_Class, .Actor6_Class{
     position: relative;
     left: 20px;
-    top: 30px;
+    top: -30px;
 
     width: 270px;
     height: 150px;
     margin-top: 50px;
     background-color: #252525;
     border-radius: 12px;
+    border: black solid 2px;
 }
 
 .Actor4_Class, .Actor5_Class, .Actor6_Class{
     left: 348px;
-    top: -567px;
+    top: -640px;
 }
 
 #Director_Name, #Actor1_Name, #Actor2_Name, #Actor3_Name, #Actor4_Name, #Actor5_Name, #Actor6_Name{
